@@ -2,6 +2,8 @@
 
 A short pandas exercise exploring Amazon's Top 50 bestselling books dataset (2009–2019): cleaning the raw data, then pulling out the most prolific authors and the average rating per genre.
 
+This project follows the guide available on Codédex: [Analyze Spreadsheet Data with Pandas & ChatGPT](https://www.codedex.io/projects/analyze-spreadsheet-data-with-pandas-chatgpt).
+
 ## Dataset
 
 `bestsellers.csv` — 550 rows, one row per bestselling book/year, with columns:
@@ -52,6 +54,7 @@ Make sure `bestsellers.csv` sits in the same folder as the notebook before runni
 - Look at rating and price trends over time (`Publication Year`).
 - Check for a correlation between `Price`, `Reviews` and `Rating`.
 
-## Author
+## Author & Acknowledgments
 
-Mathias Chane-Waye
+- **Author**: Mathias Chane-Waye
+- **Reference**: Based on the Codédex project tutorial [Analyze Spreadsheet Data with Pandas & ChatGPT](https://www.codedex.io/projects/analyze-spreadsheet-data-with-pandas-chatgpt).
